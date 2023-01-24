@@ -25,6 +25,8 @@ header {
 }
 
 .about__us h2 {
+  padding-left: 17px;
+
   font-size: 20px;
   font-weight: 600;
 }
@@ -45,6 +47,10 @@ header {
   align-items: start;
   flex-direction: column;
   gap: 10px;
+}
+
+.number__and__location h2{
+  padding: 0;
 }
 
 .circle {
