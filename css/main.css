@@ -15,6 +15,11 @@
   height: 1000px;
 }
 
+.about__us__menu p {
+  text-align: justify;
+  padding: 30px;
+}
+
 .about__us__menu .left__block {
   width: 400px;
   height: 650px;
@@ -243,4 +248,24 @@
 .link__gallary a{
   text-decoration: none;
   color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+  .about__us__menu{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    height: 1600px;
+  }
+
+ .about__us__block .left__block{
+    width: 550px;
+  }
+
+  .about__us__block .right__block{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+  }
 }

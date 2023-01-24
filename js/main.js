@@ -6,20 +6,28 @@ var arrLang = {
   'en': {
     'main': 'Main',
     'about-kindergarten': 'About kindergarten',
-    'how-to-sign-up': 'How to sign up',
+    'contacts': 'Contacts',
     'photo-gallery': 'Photo gallery',
+    'staff': 'Staff',
+    'about__kidergarten': 'The kindergarten "Cheerful kindergarten" was founded in May 2020, successfully carries out activities on the system of education and developmental training. The kindergarten "Cheerful kindergarten" has a nursery, junior, senior, preparatory groups, and also school groups up to the 4th grade. From 20 to 30 children study in each group. The goal of our kindergarten is to create an atmosphere and space in which your child will feel like at home. In cooperation with invited lecturers of the highest class as well as with loving teachers, your child will acquire personality qualities that have the necessary life skills and are ready to acquire the fast-flowing information of this world! Our educators are qualified teachers who have an endless Desire to work with children and are always ready to share with you valuable advice in matters of education and training.',
   },
   'ru': {
     'main': 'Главная',
     'about-kindergarten': 'О садике',
-    'how-to-sign-up': 'Как записаться',
+    'contacts': 'Контакты',
     'photo-gallery': 'Фотогалерея',
+    'staff': 'Сотрудники',
+    'about__kidergarten': 'Детский сад "Cheerful kindergarten" был основан в мае 2020 года, успешно осуществляет деятельность по системе воспитания и развивающего обучения. В детском саду "Cheerful kindergarten" открыты ясельная, младшая, старшая , подготовительная группы, и также школьные группы до 4го класса. В каждой группе обучаются от 20 до 30 детей. Целью нашего детского сада является создание атмосферы и пространства, в котором ваш ребёнок будет чувствовать себя, как в родном доме. В сотрудничестве с приглашенными лекторами высшего класса а также с любящими преподавателями ваш ребенок  приобретет качества Личности, имеющими необходимые жизненные навыки и готовыми к приобретению  быстротекущих информаций этого мира! Наши воспитатели - квалифицированные педагоги, которые имеют бесконечное Желание работать с детьми и всегда готовы поделиться с Вами ценными советами в вопросах воспитания и обучения. ',
   },
   'uz': {
-    'about': 'О нас',
-    'goods': 'Продукция',
-    'benefits': 'Преимущества',
-    'contact': 'Контакты',
+    'main': 'О нас',
+    'about-kindergarten': 'Bolalar bogchasi haqida',
+    'contacts': 'Kontaktlar',
+    'photo-gallery': 'Fotogalereya',
+    'staff': 'Xodimlar',
+
+    'about__kidergarten': 'Детский сад "Cheerful kindergarten" был основан в мае 2020 года, успешно осуществляет деятельность по системе воспитания и развивающего обучения. В детском саду "Cheerful kindergarten" открыты ясельная, младшая, старшая , подготовительная группы, и также школьные группы до 4го класса. В каждой группе обучаются от 20 до 30 детей. Целью нашего детского сада является создание атмосферы и пространства, в котором ваш ребёнок будет чувствовать себя, как в родном доме. В сотрудничестве с приглашенными лекторами высшего класса а также с любящими преподавателями ваш ребенок  приобретет качества Личности, имеющими необходимые жизненные навыки и готовыми к приобретению  быстротекущих информаций этого мира! Наши воспитатели - квалифицированные педагоги, которые имеют бесконечное Желание работать с детьми и всегда готовы поделиться с Вами ценными советами в вопросах воспитания и обучения. ',
+    'staff': 'Xodimlar',
   }
 }
 

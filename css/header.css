@@ -42,6 +42,7 @@ header {
 
 .number__and__location {
   display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
@@ -109,4 +110,25 @@ nav ul li a:hover {
 
 .number__and__location .translate{
   border: none;
+}
+
+@media only screen and (max-width: 600px) {
+  
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+  }
+
+  
+   nav{
+    display: none;
+  }
+  .header .logo{
+margin-top: 240px;
+  }
+  
 }
