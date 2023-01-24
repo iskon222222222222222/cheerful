@@ -20,7 +20,7 @@
         <div class="about__us">
           <div class="position__kindergarten">
             <h2>Cheerful Kindergarten</h2>
-            <p><span>Частный детский сад</span></p>
+            <p><span class="lang" key="private__kindergarten">Частный детский сад</span></p>
           </div>
           <div class="number__and__location">
             <div class="circle__and__text">
@@ -52,21 +52,20 @@
             <a href="index.html" class="lang" key="about-kindergarten">О садике</a>
           </li>
           <li>
-            <a href="#" class="lang" key="contacts">Контакты</a>
-          </li>
-          <li>
             <a href="gallary.html" class="lang" key="photo-gallery"
               >Фотогалерея</a
             >
           </li>
-          <li><a href="staff.html">Сотрудники</a></li>
-          <li><button id="en" class="translate"><img src="img/flag/icons8-great-britain-64.png" alt="" width="40px" height="30px"></button></li>
-          <li><button id="ru" class="translate"><img src="img/flag/icons8-russia-64.png" alt=""  width="40px" height="30px"></button></li>
-          <li><button id="uz" class="translate"><img src="img/flag/icons8-uzbekistan-64.png" alt=""  width="40px" height="30px"></button></li>
+          <li><a href="staff.html" class="lang" key="staff">Сотрудники</a></li>
+         <div class="languages">
+            <li><button id="en" class="translate"><img src="img/flag/icons8-great-britain-64.png" alt="" width="40px" height="30px"></button></li>
+            <li><button id="ru" class="translate"><img src="img/flag/icons8-russia-64.png" alt=""  width="40px" height="30px"></button></li>
+            <li><button id="uz" class="translate"><img src="img/flag/icons8-uzbekistan-64.png" alt=""  width="40px" height="30px"></button></li>
+         </div>
         </ul>
       </nav>
     </header>
-    <h1 style="text-align: center">Наша галерея:</h1>
+    <h1 style="text-align: center" class="lang" key="gallary">Галерея:</h1>
     <section class="gallary">
       <div class="gallary__block">
         <img src="img/слайд/1.jpg" alt="" class="gallary_photo" />
@@ -93,39 +92,90 @@
           class="gallary_photo"
         />
       </div>
-      <h1 style="text-align: center">Наши видео:</h1>
+      <h1 style="text-align: center; margin-top: 50px;" class="lang" key="vidio">Видео:</h1>
       <div class="gallary__block video_block">
         <video controls width="800" height="400">
-          <source src="img/2_5472122973185908273.mp4" type="video/mp4" />
+          <source src="img/видео/2_5456439393298425348.mp4" type="video/mp4" />
           <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-          <source src="img/2_5472122973185908273.mp4" type="video/webm" />
+          <source src="img/видео/2_5456439393298425348.mp4" type="video/webm" />
           <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-          <source src="img/2_5472122973185908273.mp4" type="video/ogg" />
+          <source src="img/видео/2_5456439393298425348.mp4" type="video/ogg" />
           <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
           <object
-            data="img/video_2023-01-18_18-37-14.mp4"
+            data="img/видео/2_5456439393298425348.mp4"
             type="application/x-shockwave-flash"
           >
             <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
             <param name="movie" value="video.swf" />
           </object>
         </video>
+
         <video controls width="800" height="400">
-          <source src="img/2_5231245625084880827.mp4" type="video/mp4" />
+          <source src="img/видео/2_5472122973185908273.mp4" type="video/mp4" />
           <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
-          <source src="img/2_5231245625084880827.mp4" type="video/webm" />
+          <source src="img/видео/2_5472122973185908273.mp4" type="video/webm" />
           <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
-          <source src="img/2_5231245625084880827.mp4" type="video/ogg" />
+          <source src="img/видео/2_5472122973185908273.mp4" type="video/ogg" />
           <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
           <object
-            data="img/2_5456439393298425348.mp4"
+            data="img/видео/2_5472122973185908273.mp4"
             type="application/x-shockwave-flash"
           >
             <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
             <param name="movie" value="video.swf" />
           </object>
         </video>
-      </div>
+
+        <video controls width="800" height="400">
+          <source src="img/видео/3.mp4" type="video/mp4" />
+          <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+          <source src="img/видео/3.mp4" type="video/webm" />
+          <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+          <source src="img/видео/3.mp4" type="video/ogg" />
+          <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+          <object
+            data="img/видео/3.mp4"
+            type="application/x-shockwave-flash"
+          >
+            <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+            <param name="movie" value="video.swf" />
+          </object>
+        </video>
+
+        <video controls width="800" height="400">
+          <source src="img/видео/4.mp4" type="video/mp4" />
+          <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+          <source src="img/видео/4.mp4" type="video/webm" />
+          <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+          <source src="img/видео/4.mp4" type="video/ogg" />
+          <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+          <object
+            data="img/видео/4.mp4"
+            type="application/x-shockwave-flash"
+          >
+            <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+            <param name="movie" value="video.swf" />
+          </object>
+        </video>
+
+        <video controls width="800" height="400">
+          <source src="img/видео/5.mp4" type="video/mp4" />
+          <!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 -->
+          <source src="img/видео/5.mp4" type="video/webm" />
+          <!-- WebM/VP8 для Firefox4, Opera, и Chrome -->
+          <source src="img/видео/5.mp4" type="video/ogg" />
+          <!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera -->
+          <object
+            data="img/видео/5.mp4"
+            type="application/x-shockwave-flash"
+          >
+            <!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video -->
+            <param name="movie" value="video.swf" />
+          </object>
+        </video>
     </section>
+
+    <script src="js/main.js"></script>
+    <script src="js/app.js"></script>
   </body>
 </html>

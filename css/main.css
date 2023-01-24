@@ -3,6 +3,7 @@
   align-items: center;
   justify-content: center;
 
+
   background-color: rgb(237, 250, 241);
 }
 
@@ -17,7 +18,12 @@
 
 .about__us__menu p {
   text-align: justify;
-  padding: 30px;
+}
+
+.position-about-block{
+  display: flex;
+  justify-content: center;
+  align-items: start;
 }
 
 .about__us__menu .left__block {
@@ -31,7 +37,7 @@
 }
 
 .about__us__menu .left__block p {
-  padding: 40px 30px 0px 30px;
+  padding: 10px 30px 0px 30px;
 }
 
 .about__us__menu .left__block h1 {
@@ -42,7 +48,6 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: center;
 
   text-align: center;
 }
@@ -243,11 +248,54 @@
   flex-direction: column;
 
   background-color: #26de81;
+
+  cursor: pointer;
+  transition: 1s;
+}
+
+.link__gallary:hover{
+  background-color: #3ab176;
+  transition: 1s;
 }
 
 .link__gallary a{
   text-decoration: none;
   color: #000;
+}
+
+.doctors__gallary__block{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  width: 600px;
+
+  border: 2px dashed rgb(179, 206, 186);
+}
+
+.doctor{
+  height: 250px;
+}
+
+.caregivers{
+  width: 700px;
+}
+
+.director{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.doctor__style{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.doctor__style p{
+  font-size: 25px;
 }
 
 @media only screen and (max-width: 600px) {
@@ -269,3 +317,4 @@
     max-width: 600px;
   }
 }
+
