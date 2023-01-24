@@ -37,6 +37,7 @@ var arrLang = {
     'doctor': 'Doctor',
     'educators': 'Educators',
     'teachers': 'Teachers',
+    'director--name': 'Enginaliyeva Muxlisa Axadovna',
   },
   'uz': {
     'private__kindergarten': 'Xususiy bolalar bog\'chasi',
@@ -55,7 +56,7 @@ var arrLang = {
     'elementary__school': 'Boshlang\'ich sinflar',
     'lecturers': ' Ma\'ruzachilar',
     'Mental__math': 'Aqliy arifmetika',
-    'sport__gim': 'Sport gim',
+    'sport__gim': 'Badiiy gimnastika',
     'training': 'Darslar',
     'gallary': 'Galereya',
     'click': 'Barcha fotosuratlarni',
@@ -67,8 +68,9 @@ var arrLang = {
     'doctors': 'Shifokorlar',
     'Methodist': 'Metodist',
     'doctor': 'Doktor',
-    'educators': 'Еarbiyachilar',
+    'educators': 'Tarbiyachilar',
     'teachers': 'O\'qituvchilar',
+    'director--name': 'Enginaliyeva Muxlisa Axadovna',
   }
 }
 

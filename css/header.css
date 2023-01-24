@@ -24,6 +24,10 @@ header {
   gap: 35px;
 }
 
+.about__us p {
+  padding-left: 17px;
+}
+
 .about__us h2 {
   padding-left: 17px;
 
